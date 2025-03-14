@@ -4,6 +4,8 @@ nav:
   - General:
     - Coding Standards: general/coding-standards.md
     - Tools: general/tools.md
+  - Perfect Order Masivo:
+    - Introduction: po-masivo/intro.md
   - Documentation Template:
     - Introduction: docs-template/intro.md
     - Architecture: docs-template/architecture.md

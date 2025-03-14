@@ -14,4 +14,5 @@ This site contains the L'Oréal Mex Technical Documentation of all our products.
 
 ## Resources
 - [General](general/coding-standards.md)
+- [PO ND2C AP]I(po-n2dc-api/intro.md)
 - [Docs Template](docs-template/intro.md)

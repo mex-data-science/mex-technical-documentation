@@ -1,5 +1,5 @@
 # Documentation Template
 
-## Desployment
+## Deployment
 
 Describe deployment to production methodology.

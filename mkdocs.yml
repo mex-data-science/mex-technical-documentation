@@ -1,0 +1,14 @@
+site_name: L'Oréal - Mex Data Science
+nav:
+  - Index: index.md
+  - General:
+    - Coding Standards: general/coding-standards.md
+    - Tools: general/tools.md
+  - Documentation Template:
+    - Introduction: docs-template/intro.md
+    - Architecture: docs-template/architecture.md
+    - API: docs-template/api.md
+    - Deployment: docs-template/deployment.md
+theme:
+  name: "material"
+repo_url: "https://github.com/maCastanedaCSA/mex-technical-documentation"

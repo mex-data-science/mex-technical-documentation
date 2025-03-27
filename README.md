@@ -1,3 +1,3 @@
 # Mex Technical Documentation
 
-[Documentation link](https://maCastanedaCSA.github.io/repo-documentacion/)
+[Documentation link](https://macastanedacsa.github.io/mex-technical-documentation/)

@@ -11,4 +11,9 @@ nav:
     - Deployment: docs-template/deployment.md
 theme:
   name: "material"
+markdown_extensions:
+  - admonition
+plugins:
+  - search
+  - mermaid2
 repo_url: "https://github.com/maCastanedaCSA/mex-technical-documentation"

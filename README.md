@@ -17,7 +17,7 @@ easily accessible for integration into the main documentation.
 Please attach to the branching guideline bellow:
 
 ```mermaid
-%%{init: {'theme':'base'}}%%
+%%{init: {'theme':'base', 'gitGraph': {'showCommitLabel': false}}}%%
 gitGraph
     commit
     commit
@@ -25,12 +25,12 @@ gitGraph
     checkout general
     commit
     commit
-    branch general/first
-    checkout general/first
+    branch gen/contribution
+    checkout gen/contribution
     commit
     commit
     checkout general
-    merge general/first
+    merge gen/contribution
     checkout main
     merge general
     commit

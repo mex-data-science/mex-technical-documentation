@@ -4,7 +4,6 @@ This section is a collection of the current tools used by the L'Oréal Mex Data
 Science Team.
 
 ---
-
 ## Drawio
 
 !!! tip
@@ -32,7 +31,6 @@ It is extremly useful to integrate cloud icons into a diagram, such as:
 And it allows you to export a diagram to common image formats like JPEG or PNG.
 
 ---
-
 ## Mermaid
 
 !!! tip

@@ -12,6 +12,14 @@ This site contains the L'Oréal Mex Technical Documentation of all our products.
 |Karina Velázquez|Data Scientist|[kari-vlzqz](https://github.com/kari-vlzqz)|Kari|
 |Miguel Castañeda|Data Scientist|[maCastanedaCSA](https://github.com/maCastanedaCSA)|Migue|
 
-## Resources
-- [General](general/coding-standards.md)
-- [Docs Template](docs-template/intro.md)
+## Documentation Resources
+
+* [General](general/coding-standards.md)
+* [Docs Template](docs-template/intro.md)
+
+## References
+
+Usefull documentation:
+
+* [MkDocs](https://www.mkdocs.org/)
+* [MkDocs - Docmark and Extensions](https://yakworks.github.io/docmark/)

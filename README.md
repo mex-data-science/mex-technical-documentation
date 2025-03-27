@@ -2,6 +2,10 @@
 
 [Documentation link](https://macastanedacsa.github.io/mex-technical-documentation/)
 
+Contents:
+* [General Contributions](#general-contributions)
+* [Local Environment](#local-environment)
+
 ## General Contributions
 
 Acknowledge the `general` branch of this repository is designated for general
@@ -17,7 +21,7 @@ easily accessible for integration into the main documentation.
 Please attach to the branching guideline bellow:
 
 ```mermaid
-%%{init: {'theme':'base'}}%%
+%%{init: {'theme':'base', 'gitGraph': {'showCommitLabel': false}}}%%
 gitGraph
     commit
     commit
@@ -25,14 +29,45 @@ gitGraph
     checkout general
     commit
     commit
-    branch general/first
-    checkout general/first
+    branch gen/contribution
+    checkout gen/contribution
     commit
     commit
     checkout general
-    merge general/first
+    merge gen/contribution
     checkout main
     merge general
     commit
     commit
 ```
+
+## Local environment
+
+Once you completed a documentation section, ensure everything works as intended
+by running the docs site locally.
+
+Prerequisites:
+
+* [Git](https://git-scm.com/downloads/win)
+* [Python](https://www.python.org/downloads/)
+* [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install#windows-installation)
+* Suggested IDE: [Visual Studio Code](https://code.visualstudio.com/)
+
+Installation:
+
+1. Open a miniconda terminal
+2. Clone the source repository
+3. Navigate to the repository
+4. Create the pre-built env, this creates a `docs` conda environment
+    ```sh
+    conda env create --file environment.yml
+    ```
+5. Activate `docs` env
+    ```sh
+    conda activate docs
+    ```
+6. Launch the docs site locally
+    ```sh
+    mkdocs serve
+    ```
+7. Open the site serving URL in a web browser

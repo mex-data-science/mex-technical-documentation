@@ -1,0 +1,28 @@
+name: L'Oréal Mex Technical Docs
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install MkDocs
+        run: pip install mkdocs mkdocs-material mkdocs-mermaid2-plugin
+
+      - name: Deploy to GitHub Pages
+        run: |
+          mkdocs gh-deploy --force

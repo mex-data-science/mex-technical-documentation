@@ -14,4 +14,5 @@ This site contains the L'Oréal Mex Technical Documentation of all our products.
 
 ## Resources
 - [General](general/coding-standards.md)
+- [Attribution Model](luxe-mod-atr/intro.md)
 - [Docs Template](docs-template/intro.md)

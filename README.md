@@ -1,6 +1,6 @@
 # Mex Technical Documentation
 
-[Documentation link](https://macastanedacsa.github.io/mex-technical-documentation/)
+[Documentation link](https://mex-data-science.github.io/mex-technical-documentation/)
 
 Contents:
 * [General Contributions](#general-contributions)
@@ -8,7 +8,7 @@ Contents:
 
 ## General Contributions
 
-Acknowledge the `general` branch of this repository is designated for general
+Acknowledge the `dev` branch of this repository is designated for general
 contributions. It serves as a central point where collaborators can add
 features, fix bugs, and make improvements that are not specific to any other
 branch.
@@ -25,18 +25,18 @@ Please attach to the branching guideline bellow:
 gitGraph
     commit
     commit
-    branch general
-    checkout general
+    branch dev
+    checkout dev
     commit
     commit
-    branch gen/contribution
-    checkout gen/contribution
+    branch feature-myContribution
+    checkout feature-myContribution
     commit
     commit
-    checkout general
-    merge gen/contribution
+    checkout dev
+    merge feature-myContribution
     checkout main
-    merge general
+    merge dev
     commit
     commit
 ```

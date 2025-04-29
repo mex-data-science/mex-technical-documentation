@@ -16,4 +16,4 @@ markdown_extensions:
 plugins:
   - search
   - mermaid2
-repo_url: "https://github.com/maCastanedaCSA/mex-technical-documentation"
+repo_url: "https://github.com/mex-data-science/mex-technical-documentation"
